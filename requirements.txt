@@ -1,0 +1,36 @@
+# Core
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+
+# NLP
+transformers
+tokenizers
+spacy
+
+# Data & APIs
+requests
+sqlalchemy
+psycopg2-binary
+fhirclient
+
+# Visualization
+plotly
+kaleido
+
+# MLOps
+mlflow
+wandb
+
+# Utilities
+jupyterlab
+ipywidgets
+tqdm
+python-dotenv
