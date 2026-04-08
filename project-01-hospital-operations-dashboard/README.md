@@ -1,32 +1,44 @@
-# Project 01 – Hospital Operations Dashboard
+# Hospital Management Analytics Dashboard
 
-## Business Problem
-Hospitals lack real-time visibility into key operational KPIs such as bed utilization, average length of stay, readmission rates, and patient throughput.
+## Project Overview
+This project presents an end-to-end healthcare analytics dashboard built using Python, Jupyter Notebook, SQL-style joins, and Power BI.
 
-## Why It Matters
-Operational inefficiencies cost hospitals millions annually. A data-driven dashboard enables administrators to optimize staffing, scheduling, and resource allocation.
+The dashboard provides insights into patient appointments, billing performance, visit reasons, and patient demographics.
 
-## Datasets
-- Synthetic hospital operations dataset (generated in `src/load_data.py`)
-- Optional: AIHW public hospital statistics (Australia)
+## Objectives
+- Analyze appointment flow
+- Monitor billing revenue
+- Track payment completion
+- Understand visit behavior
+- Explore patient demographics
 
-## Tools & Frameworks
-- Python, pandas, NumPy
-- SQL (SQLite / PostgreSQL)
+## Tools Used
+- Python
+- Pandas
+- Jupyter Notebook
 - Power BI
-- Matplotlib / Seaborn / Plotly
+- GitHub
 
-## Expected Outputs
-- Cleaned dataset exported for Power BI
-- SQL KPI queries
-- Power BI `.pbix` dashboard
-- Dashboard screenshots
+## Key Insights
+- Total Patients: 48
+- Total Appointments: 200
+- Total Revenue: 551.25K
+- Paid Bills: 64
 
-## How to Run
-```bash
-pip install -r requirements.txt
-python src/load_data.py
-python src/clean_data.py
-python src/feature_engineering.py
-python src/export_for_powerbi.py
-```
+## Dashboard Preview
+![Dashboard Screenshot](outputs/dashboard_screenshots/hospital_dashboard_v1.png)
+
+## Key Visuals
+- Appointments by Status
+- Revenue by Payment Status
+- Top Reasons for Visit
+- Patient Gender Split
+
+## Business Value
+This dashboard can help hospital management teams monitor appointment efficiency, revenue flow, and patient visit trends for operational decision-making.
+
+## Future Improvements
+- doctor performance dashboard
+- branch comparison
+- treatment cost analysis
+- monthly trend analysis
