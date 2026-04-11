@@ -46,7 +46,7 @@ readmission
 ## Project Workflow
 
 ### 1. Data Cleaning & EDA
-Notebook: `01_data_cleaning_and_eda.ipynb`
+Notebook: `01_eda_and_data_audit.ipynb`
 
 Performed:
 
@@ -59,7 +59,7 @@ Performed:
 ---
 
 ### 2. Feature Engineering
-Notebook: `02_feature_engineering.ipynb`
+Notebook: `02_preprocessing_and_feature_engineering.ipynb`
 
 Created engineered features such as:
 
@@ -73,7 +73,7 @@ Created engineered features such as:
 ---
 
 ### 3. Model Building & Evaluation
-Notebook: `03_model_building_and_evaluation.ipynb`
+Notebook: `03_model_training_and_evaluation.ipynb`
 
 Models implemented:
 
@@ -187,7 +187,6 @@ project-02-patient-readmission-risk-prediction/
 ├── outputs/
 │   └── figures/
 ├── README.md
-└── requirements.txt
 ```
 
 ---
